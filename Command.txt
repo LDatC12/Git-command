@@ -18,3 +18,10 @@ sets the default remote branch for the current local branch.
 Any future git pull command (with the current local branch checked-out),
 will attempt to bring in commits from the <remote-branch> into the current local branch.
 
+Xóa branch ở local repository 
+git branch -d <name branch>
+
+Xóa branch ở remote repository
+git push origin -d <name branch>
+
+
