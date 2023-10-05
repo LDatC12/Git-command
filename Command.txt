@@ -6,4 +6,15 @@ git checkout
 git remote add origin https:/
 git push -u origin main
 
-hellelelele
+https://lucid.app/lucidspark/1d9454b1-e218-41f6-9e66-1605758722ac/edit?invitationId=inv_0afea184-cf0f-4d18-90e0-c5bc2b4a0adb
+
+
+-u
+--set-upstream
+ ++++++  git branch --set-upstream-to <remote-branch> 
+
+sets the default remote branch for the current local branch.
+
+Any future git pull command (with the current local branch checked-out),
+will attempt to bring in commits from the <remote-branch> into the current local branch.
+
